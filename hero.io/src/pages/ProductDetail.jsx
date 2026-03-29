@@ -10,7 +10,7 @@
 
 import { useParams, useNavigate } from "react-router-dom";
 import products from "../data/products";
-import { useCart } from "../context/CartContext";
+import { useCart } from "../context/useCart";
 import { ShoppingCart, Heart, Star, ArrowLeft, CheckCircle, XCircle } from "lucide-react";
 
 function ProductDetail() {

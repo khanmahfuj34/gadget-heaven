@@ -8,11 +8,8 @@
 //   • Custom Hook  →  your own reusable function using other hooks
 // ─────────────────────────────────────────────
 
-import { createContext, useContext, useState } from "react";
-
-// STEP A: Create an empty "box" (the context)
-// Think of it as an empty container we'll fill with data later
-export const CartContext = createContext();
+import { useState } from "react";
+import { CartContext } from "./useCart";
 
 // STEP B: Create the Provider component
 // This is the "filled box" — it holds all cart/wishlist data
